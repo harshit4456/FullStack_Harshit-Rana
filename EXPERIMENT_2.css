@@ -1,0 +1,76 @@
+//css code
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.header {
+    background-color: #0a66c2;
+    color: white;
+    padding: 15px;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+.search-box input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.categories {
+    padding: 30px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 180px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
