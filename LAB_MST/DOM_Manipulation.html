@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>DOM Manipulation</title>
+</head>
+
+<body>
+
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui amet error velit 
+    unde natus in ullam optio cum. Id aspernatur nostrum quidem exercitationem tenetur, dolor sunt quasi 
+    molestias minus ex.Iste reprehenderit dolore dolorem nostrum tenetur perspiciatis neque amet?</p>
+
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+
+function changeContent() {
+
+let p = document.getElementById("para");
+
+p.innerText = "welcome to javascript DOM Manipulation";
+p.style.color = "blue";
+p.style.fontSize = "24px";
+
+}
+
+</script>
+
+</body>
+
+</html>
